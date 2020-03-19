@@ -2,25 +2,19 @@
 
 Hemos creado una pequeña aplicacion donde recogemos valoraciones de un Json y las mostramos por pantalla. El proyecto esta realizado con Vue Cli.
 
-## Project setup
+## Configuración del proyecto
+Para inicializar el proyecto tendremos que instalar todas las dependencias con npm install
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilación para la visualización en el navegador
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilación y minificaciones para ponerlo en producción
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

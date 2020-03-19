@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <Reviews msg="Valoraciones del producto"/>
+    <ph-reviews msg="Valoraciones del producto"/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Reviews from '../components/Reviews.vue'
+import PHReviewsComponent from '../components/ph-reviews.vue'
+
 
 export default {
   name: 'Home',
   components: {
-    Reviews
+    "ph-reviews": PHReviewsComponent
   }
 }
 </script>
