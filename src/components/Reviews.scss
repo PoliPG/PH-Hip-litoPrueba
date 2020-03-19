@@ -1,0 +1,113 @@
+h1
+{
+  color: green;
+
+  text-align: left;
+}
+
+h1,
+h3
+{
+  padding: 0 .5rem;
+  margin: 2rem 0rem;
+  text-align: left;
+}
+
+#reviews-list
+{
+  padding: 0;
+}
+
+.ph-review
+{
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    .ph-review-valoracion
+    {
+      text-align: left;
+      
+      .ph-review-valoracion-stars{
+          color: #f7ca4a;
+
+          .ph-review-valoracion-total
+          {
+              margin-left: 1rem;
+              color: black;
+          }
+      }
+
+      &>p
+      {
+        text-align: left;
+        font-weight: 600;
+        font-size: .9rem;
+      }
+    }
+
+
+    .ph-review-valoracion-author
+    {
+        margin-top: .5rem;
+        display: block;
+        font-size: .8rem;
+        color: gray;
+    }
+
+    .ph-review-buttons
+    {
+      text-align: left;
+      width: 100%;
+
+      button
+      {
+        background-color: white;
+        color: black;
+        border: 0;
+        padding: .25rem .68rem;
+        margin-right: 1rem;
+        border-radius: 3px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        
+        svg
+        {
+            margin-right: .5rem;
+        }
+
+        &:hover,
+        &.active
+        {
+           background-color: green;
+           color: white;
+           border: 1px solid green;
+        }
+
+
+
+      }
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+  #reviews-list > li
+  {
+     display: inline-block;
+     vertical-align: top;
+     width: 49%;
+     margin-right: 1%;
+  }
+
+}
+
+@media screen and (min-width: 1024px)
+{
+  #reviews-list > li
+  {
+     width: 32%;
+  }
+
+}
